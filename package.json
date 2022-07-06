@@ -1,0 +1,19 @@
+{
+  "name": "queue-terminator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "pg-boss": "^7.4.0"
+  }
+}
